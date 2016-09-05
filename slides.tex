@@ -1,0 +1,192 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{graphics}
+\usepackage{CJKutf8}
+
+%\usepackage[screen,nopanel]{pdfscreen}
+%\usepackage{url}
+
+\usetheme{Azae}
+
+\newcommand{\blue}[1]{\color{DarkSkyBlue}#1}
+\newcommand{\orange}[1]{\color{DarkOrange}#1}
+\newcommand{\red}[1]{\color{DarkScarletRed}#1}
+\newcommand{\green}[1]{\color{DarkChameleon}#1}
+
+\title{Agile}
+%\subtitle{\includegraphics[width=5cm]{includes/devops}}
+\author{
+  %\includegraphics[width=3cm]{logo_azae.png}
+  Thomas Clavier {\small<thomas.clavier@univ-lille1.fr>}\\
+%  Yann Secq {\small <yann.secq@univ-lille1.fr>}
+}
+  
+\date{}
+
+\logo{
+%  \raisebox{-0.5\height}{\includegraphics[height=0.5cm]{logo_azae_noir.pdf}}
+%  \hspace*{1em}
+  \raisebox{-0.5\height}{\includegraphics[width=1cm]{cc_by_sa.png} }
+}
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{C'est quoi ?}
+ 
+  {\Large {\green Être agile} et pas faire de l'Agile.}
+
+  \vspace{6mm}
+  C'est avant tout un état d'esprit partagé par l'ensemble des participants à un projet.
+\end{frame}
+
+\begin{frame}{Être agile}
+  "Les firmes qui survivent dans le long terme ne sont pas celles qui sont les plus fortes ou les plus intelligentes, mais celles qui s'adaptent le mieux aux changements d'environnement"
+
+  \flushright{Hiroshi Okuda, Toyota}
+
+\end{frame}
+
+\begin{frame}{Pourquoi l'agilité ?}
+  \begin{itemize}
+    \item Méthode en V
+    \item Effet tunnel
+    \item Contrat
+    \item Perdant / perdant !
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Le manifeste agile}
+  \large
+  {\red Individuals and interactions} over processes and tools\newline
+  {\red Working software} over comprehensive documentation\newline
+  {\red Customer collaboration} over contract negotiation\newline
+  {\red Responding to change} over following a plan
+\end{frame}
+
+\begin{frame}{L'équipe}
+  \textbf{«~Personnes et interaction plutôt que processus et outils~»}
+  \vspace{8mm}
+
+  Dans l'optique agile, l'équipe est bien plus importante que les moyens matériels ou les procédures. Il est préférable d'avoir une équipe soudée et qui communique composée de développeurs moyens plutôt qu'une équipe composée d'individualistes, même brillants. La communication est une notion fondamentale.
+\end{frame}
+
+\begin{frame}{L'application}
+  \textbf{«~Logiciel fonctionnel plutôt que documentation complète~»}
+  \vspace{8mm}
+
+  Il est vital que l'application fonctionne. Le reste, et notamment la documentation technique, est secondaire, même si une documentation succincte et précise est utile comme moyen de communication. La documentation représente une charge de travail importante, mais peut pourtant être néfaste si elle n'est pas à jour. Il est préférable de commenter abondamment le code lui-même, et surtout de transférer les compétences au sein de l'équipe (on en revient à l'importance de la communication).
+\end{frame}
+
+\begin{frame}{La collaboration}
+  \textbf{«~Collaboration avec le client plutôt que négociation de contrat~»}
+  \vspace{8mm}
+
+  Le client doit être impliqué dans le développement. On ne peut se contenter de négocier un contrat au début du projet, puis de négliger les demandes du client. Le client doit collaborer avec l'équipe et fournir un feed-back continu sur l'adaptation du logiciel à ses attentes.
+\end{frame}
+
+\begin{frame}{L'acceptation du changement}
+  \textbf{«~Réagir au changement plutôt que suivre un plan~»}
+  \vspace{8mm}
+
+  La planification initiale et la structure du logiciel doivent être flexibles afin de permettre l'évolution de la demande du client tout au long du projet. Les premières releases du logiciel vont souvent provoquer des demandes d'évolution.
+\end{frame}
+
+\begin{frame}{Valeurs et principes}
+  \Large Des cycles courts, un produit en production à chaque fin de cycle et des producteurs de valeurs qui s'améliorent continuellement.
+\end{frame}
+
+\begin{frame}{Histoire}
+  \begin{itemize}
+    \item Ve siècle av. J.-C : L'Art de la guerre de Sun Tzu
+    \item Les Bâtisseurs de cathédrales
+    \item 1880 : Taylorisme
+    \item 1908 : Fordisme
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Toyota}
+  \begin{itemize}
+    \item 1950, Toyota
+    %TODO: trouver les détails historiques
+    \item Kaizen : amélioration continue, « Mieux qu'hier, moins bien que demain. »
+    \item 5S : propre et ordonné, mais surtout organisé selon l'usage
+    \item Kanban : les fiches sur les chaînes de montage 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{D'autres exemples}
+  \begin{itemize}
+    \item 1983 : Yamaha et MBK
+    \item Canon et son Canon Products System
+    \item 1980 : Sony, Fujitsu
+    \item 2001 : La poste japonaise, Ito-Yokado avec l'aide de Toyota
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Favi : 40 ans d'agilité}
+  \begin{itemize}
+    \item adaptations de toutes les méthodes japonaises au contexte local
+    \item des fiches
+    \item L'homme est bon => pas de sanction mais de l'action
+    \item Quoi ? Qui ? = Pourquoi ?
+    \item 1 jour, 20 ans
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Les grands du web}
+  \begin{itemize}
+    \item 2 pizzas team
+    \item Devops chez Amazon
+    \item du nombre de relations à l'organisation des sociétés
+    \item créer des groupes sociaux culturel
+    \item privilégier le "time to market", donc le client !
+    \item générique implique complexité donc délais + coût
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Les méthodes}
+  \begin{itemize}
+    \item Lean
+    \item Scrum
+    \item Kanban
+    \item Devops
+    \item Extreme Programming
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Principe}
+  \begin{itemize}
+    \item Travailler ensemble : collectif
+    \item Concentré sur un sous ensemble de taches
+    \item Simplicité, efficacité, qualité
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Scrum}
+  \begin{itemize}
+    \item un backlog produit
+    \item un backlog d'itération
+    \item des rendez-vous
+    \item un produit
+    \item une équipe
+    \item un product owner
+    \item un scrum master
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Les rendez-vous Scrum}
+  \begin{itemize}
+    \item Planning Poker
+    \item Découpage en tâches
+    \item Mêlée quotidienne
+    \item Démonstration
+    \item Rétrospective
+  \end{itemize}
+\end{frame}
+
+\end{document}
+

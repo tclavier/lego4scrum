@@ -1,0 +1,239 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[cyr]{aeguill}              % Police vectorielle TrueType, guillemets français
+\usepackage[french]{babel}
+\usepackage{ifpdf}
+\usepackage{vmargin}                   % pour la redéfinition des marges
+\usepackage{graphics}
+\usepackage{color}
+\ifpdf
+  \usepackage[pdftex,              %
+    bookmarks         = true,%     % Signets
+    bookmarksnumbered = true,%     % Signets numérotés
+    pdfpagemode       = None,%     % Signets/vignettes fermé à l'ouverture
+    pdfstartview      = FitH,%     % La page prend toute la largeur
+    pdfpagelayout     = SinglePage,% Vue par page
+    colorlinks        = true,%     % Liens en couleur
+    linkcolor         = black,%    % Couleur des liens 
+    pagecolor         = black,%    % Couleur des liens vers les autres pages
+    urlcolor          = blue,%     % Couleur des liens externes
+    pdfborder         = {0 0 0}%   % Style de bordure : ici, pas de bordure
+    ]{hyperref}%                   % Utilisation de HyperTeX
+\else
+  \usepackage{hyperref}
+\fi
+
+\usepackage{url}
+\usepackage[babel=true]{csquotes}
+\usepackage{titlesec}
+
+% COLORS (Tango)
+\definecolor{LightButter}{rgb}{0.98,0.91,0.31}
+\definecolor{LightOrange}{rgb}{0.98,0.68,0.24}
+\definecolor{LightChocolate}{rgb}{0.91,0.72,0.43}
+\definecolor{LightChameleon}{rgb}{0.54,0.88,0.20}
+\definecolor{LightSkyBlue}{rgb}{0.45,0.62,0.81}
+\definecolor{LightPlum}{rgb}{0.68,0.50,0.66}
+\definecolor{LightScarletRed}{rgb}{0.93,0.16,0.16}
+\definecolor{Butter}{rgb}{0.93,0.86,0.25}
+\definecolor{Orange}{rgb}{0.96,0.47,0.00}
+\definecolor{Chocolate}{rgb}{0.75,0.49,0.07}
+\definecolor{Chameleon}{rgb}{0.45,0.82,0.09}
+\definecolor{SkyBlue}{rgb}{0.20,0.39,0.64}
+\definecolor{Plum}{rgb}{0.46,0.31,0.48}
+\definecolor{ScarletRed}{rgb}{0.80,0.00,0.00}
+\definecolor{DarkButter}{rgb}{0.77,0.62,0.00}
+\definecolor{DarkOrange}{rgb}{0.80,0.36,0.00}
+\definecolor{DarkChocolate}{rgb}{0.56,0.35,0.01}
+\definecolor{DarkChameleon}{rgb}{0.30,0.60,0.02}
+\definecolor{DarkSkyBlue}{rgb}{0.12,0.29,0.53}
+\definecolor{DarkPlum}{rgb}{0.36,0.21,0.40}
+\definecolor{DarkScarletRed}{rgb}{0.64,0.00,0.00}
+\definecolor{Aluminium1}{rgb}{0.93,0.93,0.92}
+\definecolor{Aluminium2}{rgb}{0.82,0.84,0.81}
+\definecolor{Aluminium3}{rgb}{0.73,0.74,0.71}
+\definecolor{Aluminium4}{rgb}{0.53,0.54,0.52}
+\definecolor{Aluminium5}{rgb}{0.33,0.34,0.32}
+\definecolor{Aluminium6}{rgb}{0.18,0.20,0.21}
+
+\titleformat{\section}
+{\color{DarkScarletRed}\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\color{DarkSkyBlue}\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+{\color{DarkChameleon}\normalfont\normalsize\bfseries}{\thesubsubsection}{0.8em}{}
+
+\hypersetup{
+	linkcolor=DarkSkyBlue,
+	citecolor= DarkSkyBlue,
+	filecolor= DarkSkyBlue,
+	urlcolor= DarkSkyBlue
+}
+
+\newcommand{\prof}[1]{\textit #1}
+
+\title{Lego 4 Scrum}
+%\author{Thomas Clavier}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Présentation}
+
+\subsection{Remerciements}
+Merci à Alexey Krivitsky pour sa publication de Février 2009 sur le sujet et à  Fabrice Aimetti et Sylvain Fraïssé pour leur traduction de Novembre 2011.
+
+\subsection{Licence}
+CCby
+
+\subsection{Introduction}
+À travers un jeux, nous allons, définir, prioriser, planifier, fabriquer, livrer.
+
+Après le jeux nous prendrons du temps pour débriefer.
+
+\begin{itemize}
+  \item Product Owner : C'est moi.
+  \item L'équipe pluridisciplinaire : C'est vous.
+  \item Le scrum master : C'est encore moi.
+  \item Le produit : C'est ma ville.
+\end{itemize}
+
+Nous allons essayer à travers cette simulation de mettre en pratique ce que vous avez entendu précédemment.
+
+\section{Jouons}
+
+\subsection{À vous de jouer}
+
+\begin{itemize}
+  \item organisez vous comme vous le souhaitez en respectant les équipes 
+  \item pas de compétition mais de la coopération toutes les équipes construisent ma ville.
+  \item objectif : livrer ma ville
+  \item matière première : papier, crayons, lego, votre imagination.
+  \item c'est ma ville et je serait disponible pour répondre aux questions et vous donner mon feedback
+\end{itemize}
+
+\subsection{Backlog}
+Le Backlog est à construire ensemble.
+
+\begin{itemize}
+  \item Maisons simple (1 porte 1 fenêtre)
+  \item Maisons complexe (1 porte 2 ou 3 fenêtres) avec 1 étage ou pas.
+  \item Magasins avec habitation (soit au dessus, soit à côté)
+  \item écoles
+  \item hôpital
+  \item arrêts de bus
+  \item une rivière
+  \item 2 routes qui se croisent
+  \item des habitants x20 (en papier, mais chut c'est un secret :-)
+  \item un monument 
+  \item un cinema
+  \item une crèche
+  \item une usine
+  \item etc.
+\end{itemize}
+
+\subsection{Estimation}
+Tracer les couloirs d'eau avec en entête la suite de Fibonacci. 
+L'estimation se fait en point d'efforts relatif. 
+Trouver l'histoire utilisateur la plus petite et la mettre comme étalon (1). Pour chaque US, demander si c'est plus de X fois plus compliqué qu'une autre ou moins de N fois plus compliqué qu'une autre. 
+
+Fibonacci c'est pour éviter les milieux et le consensus mou. 
+
+\prof{Apprentissage : Regardez, nous avons mis 10 ou 20min à estimer la charge de travail de tout le projet. Le temps d'estimation est en règle générale beaucoup plus long => c'est du gâchis de perdre autant de temps juste pour planifier. Là c'est à la fois une estimation et une façon de mieux connaitre l'ensemble du périmètre, tous ensemble. Pour la suite de la planification nous allons profiter de notre propre expérience. De plus ce sont les gens qui font qui s'engagent. Mais nous verrons à la fin si l'estimation était suffisante ou pas.}
+
+\subsection{Itérations}
+3 ou 4 itérations, en début d'itération modification du backlog
+\begin{itemize}
+  \item Planification : 3 minutes pour que chaque équipe s'engage pour 1 sprint (7min)
+  \item Réalisation : 7 min 
+  \item Démo : 1 min max
+  \item Rétrospective : 5 min 
+  \item Apprentissage : N min 
+\end{itemize}
+
+À chaque fin d'itération on apprend des choses.
+\subsubsection{Itération 1}
+Ne rien leur dire durant l'itération sauf s'ils viennent poser des questions.
+
+Tracer le premier point du burndown et de la valeur livrée. 
+
+Ils n'ont pas demandé beaucoup au PO ou trop tard, et ils n'ont probablement pas livré en production. 
+
+\begin{itemize}
+  \item Se focaliser sur un produit qui marche : différence entre potentiellement et réellement, livrer de la valeur c'est pour que la valeur soit réellement produite. En dev ou en qualif on ne produit pas de valeur. Axe Produit à mettre sur le radar.
+  \item Échange avec le client plutôt que négocier un contrat : à votre avis quelles sont les solutions pour ne pas avoir ce genre de problème (le produit qui ne correspond pas aux besoins) écrire un cahier des charges, ok et combien de temps pour décrire suffisamment bien ce cahier des charges pour que vous soyez capable de faire mes maisons sans erreurs ... En ne prenant que quelques secondes on est capable de faire ensemble un truc qui me correspond et qui laisse libre court à votre expertise. Axe client à ajouter sur le radar.
+  \item Il est possible que certains aient décidé de commencer par trier les pièces, c'est une tech-stori, c'est le moment d'en parler.
+\end{itemize}
+
+\subsubsection{Itération 2}
+La ville commence à prendre forme
+
+Tracer le second point du burndown et de la valeur livrée. 
+
+Le suivi du temps est toujours aussi hasardeux et j'ai pas tout ce qui était annoncé.
+
+\begin{itemize}
+  \item Il faut un maître du temps, en effet, autonomie et confiance implique de savoir suivre le temps avec précision, et c'est à chaque équipe de s'organiser pour suivre le déroulement du temps, pas au client. Ça peut être le rôle du scrum master.
+  \item L'engagement c'est bien, mais attention vous engager sur beaucoup c'est faire une promesse au client, et ne pas tenir ses promesses ça fait des clients pas content. Il est préférable de lui donner les bons indicateurs pour qu'il est une bonne vision de l'avancement plutôt que de lui promettre la lune. Engagez vous avec justesse et montrer votre implication.
+\end{itemize}
+
+\subsubsection{Itération 3}
+En début d'itération on change le backlog, on ajoute un pont, un parc et on change quelques priorités.
+
+La ville est belle.
+
+Tracer un nouveau point du burndown et de la valeur livrée. 
+
+Le changement de backlog n'est pas perturbant, en entreprise ça l'est, car c'est une prise de risque.
+
+\begin{itemize}
+  \item Suivre un plan préétabli c'est le meilleur moyen de ne pas bien répondre au besoin du client. C'est une dynamique perdant perdant. En entreprise changer le plan c'est prendre un risque. Avec de la confiance il est possible de changer sans risque. Axe changement à mettre sur le radar.
+  \item Expliquez moi votre organisation, vous n'aviez donc ni chef, ni de travail à la chaine ? C'est plus efficace ? Chez Valve c'est pareil il n'y a pas de chef, juste des gens qui travaillent pour l'entreprise avec un seul but : faire progresser leur entreprise. C'est comme ça qu'est né Steam puis la SteamBox.
+  \item La communication dans l'équipe plus important que les processus et les outils, aviez-vous mis en place des processus de fabrication ? Non, vous avez privilégier les échanges entre personnes. Ajouter le dernier axe du radar : l'équipe.
+\end{itemize}
+
+\subsubsection{Itération 4}
+La ville est belle c'est une réussite
+
+Tracer un nouveau point du burndown et de la valeur livrée. 
+
+\begin{itemize}
+  \item Dès la seconde itération on était capable de projeter la fin du projet, là nous n'avons pas tout fait mais ma ville est utilisable, elle apporte de la valeur depuis le début. Et mieux encore j'ai adapté mon produit aux évolutions du marché. Avec une gestion de projet classique nous n'aurions rien ... Enfin rien en prod :-D 
+  \item Et si le PO n'était pas là ? Oui c'est une prise de risque, mais le risque est faible, et plus le projet avance et moins il y a de risque. Combien pour créer un document qui permet de se passer du PO ? Avec quel risque (mauvaise compréhension, spécification incomplète, validation longue, etc.) ? 
+  \item Bilan sur la précision de l'estimation. Temps d'estimation et planification vs temps de travail, ça ce passe comment sur un projet en V ?
+  \item Qui et Quoi mais jamais comment ! C'est l'équipe qui est experte, l'équipe peut demander de l'aide mais jamais on impose à l'équipe une façon de faire.
+\end{itemize}
+
+\subsection{Remarques possible}
+\begin{itemize}
+  \item les maisons sont plate
+  \item J'aime la symétrie
+  \item Tout de la même couleur ... enfin mure et toit de couleurs différentes
+  \item Batiment trop grand, trop petit
+  \item alignement des fenêtres
+  \item 4 briques de haut pour les portes
+  \item un toit sans troue qui déborde légèrement de chaque côté.
+\end{itemize}
+
+Cycle court, adaptation au changement, production de valeur, amélioration continue.
+
+\section{Bilan}
+\subsection{Manifeste agile}
+\begin{itemize}
+  \item Les individus et leurs interactions plus que les processus et les outils
+  \item Des logiciels opérationnels plus qu’une documentation exhaustive
+  \item La collaboration avec les clients plus que la négociation contractuelle
+  \item L’adaptation au changement plus que le suivi d’un plan
+\end{itemize}
+
+Expliquer que ces 4 valeurs permettent de répondre à toutes les questions qui se posent sur un projet. Ce sont les clés pour prendre les bonnes décisions.
+
+\subsection{Manifeste agile}
+On peut voter pour se positionner sur le radar et voir comment on peut faire mieux.
+
+\end{document}
