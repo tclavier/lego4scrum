@@ -2,6 +2,6 @@
 
 # lego4scrum
 
-Un support pour les enseignants à utiliser quasiment sans formation préalable.
+[Le support](https://gitlab.com/tclavier/lego4scrum/builds/artifacts/master/file/notes_pour_le_facilitateur.pdf?job=build_pdf) pour les enseignants à utiliser quasiment sans formation préalable.
 
 Traduis et adapté de http://www.lego4crum.com
