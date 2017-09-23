@@ -1,4 +1,4 @@
-# Atention, pour une version à jour de ce dépôtn rendez-vous sur https://gitlab.com/tclavier/lego4scrum
+# Atention, pour une version à jour de ce dépôt rendez-vous sur https://gitlab.com/tclavier/lego4scrum
 
 # lego4scrum
 
